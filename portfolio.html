@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <!-- web icon -->
+    <link rel="icon" href="images/user.png">
+    <!-- icon ion  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- box icons font -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- style sheet css -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo"><ion-icon name="logo-web-component"></ion-icon> ManojSK.</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>Manoj S K</h1>
+            <h3>And I've learned <span class="multiple-text"></span></h3>
+            <p>My primary objective as a fresher is to gain practical experience in front end development and backend development, 
+                learn and develop skills, Demonstrate a strong work ethic and to secure an entry-level position as a software engineer
+                in a dynamic organization where i can apply my skills and knowledge and contribute to the development of inovative 
+                software solutions.
+            </p>
+            <div class="social-media-links">
+                <a href="https://www.instagram.com/_manoj_s_k_000_/" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://twitter.com/manojsk000" target="_blank"><i class="bx bxl-twitter" ></i></a>
+                <a href="https://www.linkedin.com/in/manoj-s-k-b7b43b247" target="_blank"><i class="bx bxl-linkedin" ></i></a>
+                <a href="https://github.com/manojsk000" target="_blank"><i class="bx bxl-github" ></i></a>
+            </div>
+
+            <a href="Resume/resume.pdf" download class="button" target="_blank">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/editedphoto1.png" alt="">
+        </div>
+
+    </section>
+
+<!-- About section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/editedphoto2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Java Development</h3>
+            <p>As a recent graduate, I have completed Java full stack development, I am a dedicated and enthusisatic professional
+                eager to kickstart my career in software development industry.
+                I have aquired a strong foundation in java pragramming and solid understanding of various front-end and back-end technologies.
+                Although I don't have any prior experience, I am eager to apply my knowledge, skills and enthusiasm to contribute to the success
+                of a professional software development team.  
+            </p>
+            <a href="#" class="button">Read More</a>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="bx bx-code-block"></i>
+                <h3>Front-End Development</h3>
+                <p>Front-end development refers to the process of creating the user interface and user experience
+                    of a website or web application. As a fresher in front-end-development, our role involve translating
+                    design concepts and user requirements into functional and visually apearing web pages.
+                </p>
+                <a href="#" class="button">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="bx bx-data" ></i>
+                <h3>Back-End development</h3>
+                <p>Back-end development involves building and maintaining the server-side logic and infrastructure that powers websites
+                    and web applications. As a fresher in back-end development, our role will focus on handling the functionality of website,
+                    including data storage, processing and server-side operations.
+                </p>
+                <a href="#" class="button">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="bx bxl-aws" ></i>
+                <h3>AWS Cloud practitioner</h3>
+                <p>AWS fundamentals and its concepts such as regions, availability zones and global infrastructure.
+                    Aware of AWS services such as compute, storage, database, networking which includes understanding services
+                    like Amazon EC2, Amazon S3, Amazon RDS, Amazon VPC. Static website deployment using S3 storage and so on.
+                </p>
+                <a href="#" class="button">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="project" id="project">
+        <h2 class="heading">Latest <span>works</span></h2>
+
+        <div class="project-container">
+            <div class="project-box">
+                <img src="images/calculator.png" alt="">
+                <div class="project-layer">
+                    <h4>Simple Calculator</h4>
+                    <p>
+                        A calculator web project is a digital application wich involves implementing the necessary logic to handle
+                        user inputs and perform the corresponding calculations.
+                    </p>
+                    <a href="#" id="0" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>Simple calculator</h2>
+                <h3>preview this project</h3>
+                <a href="https://web-projects-chi-lovat.vercel.app/web_simple_calculator/calculator.html" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/web_projects/tree/main/web_simple_calculator" target="_blank">click me</a>
+            </dialog>
+
+            <div class="project-box">
+                <img src="images/bookmyshow.png" alt="">
+                <div class="project-layer">
+                    <h4>Book My show clone</h4>
+                    <p>
+                        Book my Show clone react project is a digital application that replicates the functionality of the popular 
+                        online ticket booking platform called BookMyShow.
+                    </p>
+                    <p class="note">Note: <span class="describe">please wait for atleast two minutes and reload to display favourites page</span></p>
+                    <a href="#" id="1" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>Book_My_Show_clone</h2>
+                <h3>preview this project</h3>
+                <a href="https://react-bookmyshow-replica.pages.dev/" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/react_BookmyShow_replica" target="_blank">click me</a>
+            </dialog>
+
+            <div class="project-box">
+                <img src="images/analogclock.png" alt="">
+                <div class="project-layer">
+                    <h4>Analog clock</h4>
+                    <p>
+                        An analog clock web project is a digital representation of a traditional clock with hour, minute, and second hands.
+                        It is designed to mimic the appearance and functionality of a physical analog clock.
+                    </p>
+                    <a href="#" id="2" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>Analog clock</h2>
+                <h3>preview this project</h3>
+                <a href="https://web-projects-chi-lovat.vercel.app/web_clock_analog/clock.html" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/web_projects/tree/main/web_clock_analog" target="_blank">click me</a>
+            </dialog>
+
+            <div class="project-box">
+                <img src="images/stanford.png" alt="">
+                <div class="project-layer">
+                    <h4>Stanford university replica</h4>
+                    <p>
+                        A Stanford University clone web project is a digital replica or imitation of the official Stanford University website. 
+                        It aims to recreate the look, feel, and functionality of the original website for educational or demonstration purposes.
+                    </p>
+                    <a href="#" id="3" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>Stanford university</h2>
+                <h3>preview this project</h3>
+                <a href="https://web-projects-chi-lovat.vercel.app/web_stanford_un_replica/stanfordclone.html" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/web_projects/tree/main/web_stanford_un_replica" target="_blank">click me</a>
+            </dialog>
+
+            <div class="project-box">
+                <img src="images/react_signup.png" alt="">
+                <div class="project-layer">
+                    <h4>Web React Springboot</h4>
+                    <p>
+                        A React signup page to post and fetch project is a web application built using the React JavaScript library that allows users 
+                        to sign up by providing their information and then stores that data on a server for future retrieval.
+                    </p>
+                    <a href="#" id="4" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>Web react Springboot</h2>
+                <h3>preview this project</h3>
+                <a href="https://reactspringboot.pages.dev/" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/reactspringboot" target="_blank">click me</a>
+            </dialog>
+
+            <div class="project-box">
+                <img src="images/springpreview.png" alt="">
+                <div class="project-layer">
+                    <h4>SpringBoot Signup Login</h4>
+                    <p>
+                        It allows users to sign up, authenticate their identity, and securely access protected resources. The project typically involves multiple 
+                        components in Spring Boot, such as controllers, services, repositories, and security configurations.
+                    </p>
+                    <a href="#" id="5" data-open onclick="return changeFreq(this)"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <dialog class="dialogue">
+                <div>
+                    <!-- <button class="modal-btn" data-close>close</button> -->
+                    <i data-close class="bx bx-x"></i>
+                </div>
+                <h2>SpringBoot Signup Login</h2>
+                <h3>preview this project</h3>
+                <a href="reactspringpreview.html" target="_blank">click me</a>
+                <h3>project code</h3>
+                <a href="https://github.com/manojsk000/signup_login_using_springboot" target="_blank">click me</a>
+            </dialog>
+
+
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Info!</span></h2>
+
+        <form class="form">
+            <div class="input-box">
+                <input name="full_name" type="text" placeholder="Full Name">
+                <input name="Email_id" type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input name="Mobile" type="number" placeholder="Mobile Number">
+                <input name="Email_subject" type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="Your_message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Manoj | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js [ https://github.com/mattboldt/typed.js/ ] -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+
+    <!-- custom javascript -->
+    <script src="portfolio.js"></script>
+</body>
+</html>
